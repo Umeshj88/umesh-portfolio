@@ -71,7 +71,7 @@ export default function Portfolio() {
               I test software so your users don’t have to.
             </h1>
             <p className="mt-4 text-slate-600 dark:text-slate-300">
-              I'm <strong>Umesh</strong>, a Software Test Engineer at <strong>Php Poets</strong> with ~2 years of experience.
+             I&apos;m <strong>Umesh</strong>, a Software Test Engineer at <strong>Php Poets</strong> with ~2 years of experience.
               I blend manual testing depth with growing automation skills to ship stable, secure, and delightful releases.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
