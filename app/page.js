@@ -124,7 +124,7 @@ export default function Portfolio() {
           <motion.div {...fadeUp} className="md:col-span-2">
             <Card className="rounded-3xl">
               <CardHeader>
-                <CardTitle>About Me</CardTitle>
+                <CardTitle>About Me </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4 text-slate-600 dark:text-slate-300">
                 <p>
@@ -134,10 +134,11 @@ export default function Portfolio() {
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Manual testing across web and Android apps</li>
                   <li>Functional, regression, smoke, sanity, UI/UX checks</li>
-                  <li>API testing with Postman and REST Assured basics</li>
-                  <li>Automation foundations: Selenium WebDriver, Playwright</li>
-                  <li>JMeter basics for performance sanity</li>
-                  <li>CI taste: GitHub Actions, basic pipelines</li>
+                 {/* <li>API testing with Postman and REST Assured basics</li> */}
+
+                {/*<li>Automation foundations: Selenium WebDriver, Playwright</li>*/}
+                  <li>JMeter basics for performance Testing</li>
+                  {/*<li>CI taste: GitHub Actions, basic pipelines</li>*/}
                 </ul>
               </CardContent>
             </Card>
