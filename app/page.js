@@ -149,11 +149,11 @@ export default function Portfolio() {
                 <CardTitle>Quick Info</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <div className="flex items-center gap-3"><Globe className="h-4 w-4"/> Udaipur, India</div>
-                <div className="flex items-center gap-3"><Mail className="h-4 w-4"/> you@example.com</div>
-                <div className="flex items-center gap-3"><Phone className="h-4 w-4"/> +91-98xxxxxxx</div>
+                <div className="flex items-center gap-3"><Globe className="h-4 w-4"/> Chittorgarh, India</div>
+                <div className="flex items-center gap-3"><Mail className="h-4 w-4"/> umeshjoshi4488.com</div>
+                <div className="flex items-center gap-3"><Phone className="h-4 w-4"/> +91-9664053436</div>
                 <div className="pt-2 flex flex-wrap gap-2">
-                  {["Manual QA","Automation","API Testing","CI/CD","SQL","JIRA","Agile"].map(t => (
+                  {["Manual QA","Automation","SQL","JIRA"].map(t => ( 
                     <Badge key={t} variant="secondary" className="rounded-full">{t}</Badge>
                   ))}
                 </div>
@@ -176,18 +176,19 @@ export default function Portfolio() {
               points: ["Test planning & strategy","Test case design","Bug reporting & triage"],
               icon: <CheckCircle2 className="h-6 w-6" />
             },
-            {
-              title: "Automation",
-              desc: "Selenium WebDriver, Playwright basics, Page Object Model.",
-              points: ["Java/JS basics","Locators mastery","CI-friendly runs"],
-              icon: <Wrench className="h-6 w-6" />
-            },
-            {
-              title: "API & Tools",
-              desc: "Postman, REST Assured basics, Swagger, JMeter sanity.",
-              points: ["Auth & collections","Assertions","Monitors"],
-              icon: <FlaskConical className="h-6 w-6" />
-            },
+            
+            //{
+               //title: "Automation",
+              //desc: "Selenium WebDriver, Playwright basics, Page Object Model.",
+              //points: ["Java/JS basics","Locators mastery","CI-friendly runs"],
+              //icon: <Wrench className="h-6 w-6" />
+            //},
+            //{
+              //title: "API & Tools",
+             // desc: "Postman, REST Assured basics, Swagger, JMeter sanity.",
+              //points: ["Auth & collections","Assertions","Monitors"],
+              //icon: <FlaskConical className="h-6 w-6" />
+            //},
             {
               title: "Quality & Security",
               desc: "Basic OWASP awareness, input validation, auth flows.",
@@ -200,12 +201,12 @@ export default function Portfolio() {
               points: ["Defect life cycle","Release notes","Demos"],
               icon: <Sparkles className="h-6 w-6" />
             },
-            {
-              title: "Data & DB",
-              desc: "SQL basics for validation and quick checks.",
-              points: ["Joins & filters","Data setup","Back-office QA"],
-              icon: <FlaskRound className="h-6 w-6" />
-            }
+            //{
+              //title: "Data & DB",
+              //desc: "SQL basics for validation and quick checks.",
+              //points: ["Joins & filters","Data setup","Back-office QA"],
+              //icon: <FlaskRound className="h-6 w-6" />
+            //}
           ].map((s) => (
             <Card key={s.title} className="rounded-3xl">
               <CardHeader className="flex-row items-center gap-3">
@@ -241,24 +242,24 @@ export default function Portfolio() {
               stack: ["Web","Manual","JIRA","Postman"],
               link: "#"
             },
-            {
-              name: "SaaS Admin Panel",
-              desc: "API testing collections in Postman with monitors + smoke suite for role-based access control.",
-              stack: ["API","Auth","Postman"],
-              link: "#"
-            },
-            {
-              name: "Selenium POM Demo",
-              desc: "Sample repo with Page Object Model in Java + TestNG and GitHub Actions CI.",
-              stack: ["Selenium","Java","TestNG","CI"],
-              link: "#"
-            },
-            {
-              name: "Playwright TS Suite",
-              desc: "UI tests in Playwright + fixtures, screenshots on failure, HTML report.",
-              stack: ["Playwright","TypeScript"],
-              link: "#"
-            },
+            //{
+              //name: "SaaS Admin Panel",
+              //desc: "API testing collections in Postman with monitors + smoke suite for role-based access control.",
+              //stack: ["API","Auth","Postman"],
+              //link: "#"
+            //},
+            //{
+              //name: "Selenium POM Demo",
+              //desc: "Sample repo with Page Object Model in Java + TestNG and GitHub Actions CI.",
+              //stack: ["Selenium","Java","TestNG","CI"],
+              //link: "#"
+            //},
+            //{
+              //name: "Playwright TS Suite",
+              //desc: "UI tests in Playwright + fixtures, screenshots on failure, HTML report.",
+              //stack: ["Playwright","TypeScript"],
+              //link: "#"
+            //},
             {
               name: "Mobile App Sanity",
               desc: "APK sanity checklist covering install, permissions, network, and offline states.",
@@ -346,8 +347,8 @@ export default function Portfolio() {
                 Want me to test your app or set up a lean QA workflow? Drop a line.
               </p>
               <div className="space-y-3">
-                <div className="flex items-center gap-3"><Mail className="h-4 w-4"/> you@example.com</div>
-                <div className="flex items-center gap-3"><Phone className="h-4 w-4"/> +91-98xxxxxxx</div>
+                <div className="flex items-center gap-3"><Mail className="h-4 w-4"/> umeshjoshi4488@gmail.com</div>
+                <div className="flex items-center gap-3"><Phone className="h-4 w-4"/> +91-9664053436</div>
               </div>
               <div className="flex gap-3">
                 <Button asChild className="rounded-2xl"><a href="mailto:you@example.com">Email</a></Button>
